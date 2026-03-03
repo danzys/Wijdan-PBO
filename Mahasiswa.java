@@ -4,7 +4,7 @@ public class Mahasiswa extends User {
     private String Jurusan;
     private String tingkatStres;
 
-    public Mahasiswa(int idUser, int idKonten, int idReward, String nama, String email, String password,String noTelepon, String tanggalDaftar,String nim, String jurusan, String tingkatStres) {
+    public Mahasiswa(int idUser, int idKonten, int idReward, String nama, String email, String password,String noTelepon, String tanggalDaftar,String NIM, String Jurusan, String tingkatStres) {
 
         super(idUser, idKonten, idReward, nama, email, password, noTelepon, tanggalDaftar);
 
@@ -18,8 +18,8 @@ public class Mahasiswa extends User {
         super.tampilkanInfo();
 
         System.out.println("NIM : " + NIM);
-        System.out.println("JURUSAN : " + Jurusan);
-        System.out.println("TINGKAT STRES : " + tingkatStres);
+        System.out.println("Jurusan : " + Jurusan);
+        System.out.println("tingkat stres : " + tingkatStres);
         System.out.println();
     }
 }
