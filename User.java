@@ -25,7 +25,7 @@ public class User {
         System.out.println("Id Reward : " + idReward);
         System.out.println("Nama : " + nama);
         System.out.println("Email : " + email);
-        System.out.println("Password : " + password);
+        System.out.println("Password : *******" );
         System.out.println("No Telepon : " + noTelepon);
         System.out.println("Tanggal Daftar : " + tanggalDaftar);
     }
